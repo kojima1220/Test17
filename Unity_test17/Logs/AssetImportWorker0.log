@@ -1,0 +1,131 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'ja' Physical Memory: 16300 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.3f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/souhe/Desktop/高度情報演習1B/GitHub/Test17/Unity_test17
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55559
+Successfully changed project path to: C:/Users/souhe/Desktop/高度情報演習1B/GitHub/Test17/Unity_test17
+C:/Users/souhe/Desktop/高度情報演習1B/GitHub/Test17/Unity_test17
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/souhe/Desktop/高度情報演習1B/GitHub/Test17/Unity_test17/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002321 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 31.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.813 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 30.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 2.042400 ms (FindLiveObjects: 0.367800 ms CreateObjectMapping: 0.157100 ms MarkObjects: 1.407700 ms  DeleteObjects: 0.108600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/W5_部屋メニュー画面.unity
+  artifactKey: Guid(ffb240ec0b50be045819f0f2bd0a2e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/W5_部屋メニュー画面.unity using Guid(ffb240ec0b50be045819f0f2bd0a2e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f34991e1bd23718d947a7014624b90') in 0.015085 seconds
+  Import took 0.017518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.072127 seconds.
+  path: Assets/Scenes/W6_部屋作成画面.unity
+  artifactKey: Guid(15724776661ff9c47b35954eff4f8bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/W6_部屋作成画面.unity using Guid(15724776661ff9c47b35954eff4f8bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4691803cf6db2d40d67aa5403f107121') in 0.007055 seconds
+  Import took 0.009428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.478376 seconds.
+  path: Assets/Scenes/W7_部屋選択画面.unity
+  artifactKey: Guid(9513d5ea30357c5448b78c4281fcf431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/W7_部屋選択画面.unity using Guid(9513d5ea30357c5448b78c4281fcf431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061024ed77383bd11a63d84b91c05bc2') in 0.007011 seconds
+  Import took 0.009561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.724389 seconds.
+  path: Assets/Scenes/W8_待機画面.unity
+  artifactKey: Guid(2a9419ef14fce324fad16cb4a68e82c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/W8_待機画面.unity using Guid(2a9419ef14fce324fad16cb4a68e82c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05498ccf014d8710e711fe154746706') in 0.006926 seconds
+  Import took 0.009627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.792626 seconds.
+  path: Assets/Scenes/W9_大富豪画面.unity
+  artifactKey: Guid(81ca5894e6e9aca48bf184f5b4518810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/W9_大富豪画面.unity using Guid(81ca5894e6e9aca48bf184f5b4518810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5218e7c2b5b5ef1a2d1b62b7c08ca03') in 0.006897 seconds
+  Import took 0.009384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.018246 seconds.
+  path: Assets/Scenes/W10_ポーカー画面.unity
+  artifactKey: Guid(2d6bd319a5e46b94a8f20561de2792f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/W10_ポーカー画面.unity using Guid(2d6bd319a5e46b94a8f20561de2792f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20328bd079f57c8e5222494ca84e70c8') in 0.006760 seconds
+  Import took 0.009372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.346243 seconds.
+  path: Assets/Scenes/W11_ランキング画面.unity
+  artifactKey: Guid(d55179e61baa6b544a6978633903c4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/W11_ランキング画面.unity using Guid(d55179e61baa6b544a6978633903c4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf389668a8b6eae41dab67a93f3b980') in 0.007138 seconds
+  Import took 0.009656 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
