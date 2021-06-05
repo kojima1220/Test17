@@ -15,11 +15,11 @@ C:/Users/souhe/Desktop/高度情報演習1B/GitHub/Test17/Unity_test17
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55559
+50193
 Successfully changed project path to: C:/Users/souhe/Desktop/高度情報演習1B/GitHub/Test17/Unity_test17
 C:/Users/souhe/Desktop/高度情報演習1B/GitHub/Test17/Unity_test17
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 31.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 31.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,97 +35,189 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002321 seconds.
+Registered in 0.002421 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.813 seconds
+- Completed reload, in  2.041 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001096 seconds.
+Registered in 0.001089 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 39.03 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
+- Completed reload, in  0.996 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 84.8 MB.
 System memory in use after: 84.8 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2250.
-Total: 2.042400 ms (FindLiveObjects: 0.367800 ms CreateObjectMapping: 0.157100 ms MarkObjects: 1.407700 ms  DeleteObjects: 0.108600 ms)
+Total: 4.208500 ms (FindLiveObjects: 0.743700 ms CreateObjectMapping: 0.222500 ms MarkObjects: 3.011400 ms  DeleteObjects: 0.229800 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Scenes/W1_ホーム画面.unity
+  artifactKey: Guid(cad8ca94d2b75bf499a1675b63a80268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/W1_ホーム画面.unity using Guid(cad8ca94d2b75bf499a1675b63a80268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26c4b39a18f0adfedb074008072432c') in 0.040041 seconds
+  Import took 0.052805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 540.558963 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e0e235c0f4af3754229b664788db90') in 0.008998 seconds
+  Import took 0.012159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.212922 seconds.
+  path: Assets/Image
+  artifactKey: Guid(3af7d1135b369bc44ade1dc0adc05b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image using Guid(3af7d1135b369bc44ade1dc0adc05b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cf8bd29facfbeb053fe7986674b155') in 0.007123 seconds
+  Import took 0.010507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.776501 seconds.
+  path: Assets/Script
+  artifactKey: Guid(b34976d57f279c94dbf578ba46303b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script using Guid(b34976d57f279c94dbf578ba46303b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c07ef913e473563504590d29929650b') in 0.009044 seconds
+  Import took 0.012417 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001133 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.779 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2256.
+Total: 2.894400 ms (FindLiveObjects: 0.224000 ms CreateObjectMapping: 0.063600 ms MarkObjects: 2.501900 ms  DeleteObjects: 0.103300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 288.386865 seconds.
+  path: Assets/Image/トランプ背景.jpg
+  artifactKey: Guid(39589dc4872b3d049b385df85e15e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Image/トランプ背景.jpg using Guid(39589dc4872b3d049b385df85e15e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bc5719026ede16ef65fc5ab9037d865') in 0.159438 seconds
+  Import took 0.163324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 179.017998 seconds.
   path: Assets/Scenes/W5_部屋メニュー画面.unity
   artifactKey: Guid(ffb240ec0b50be045819f0f2bd0a2e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/W5_部屋メニュー画面.unity using Guid(ffb240ec0b50be045819f0f2bd0a2e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f34991e1bd23718d947a7014624b90') in 0.015085 seconds
-  Import took 0.017518 seconds .
+Start importing Assets/Scenes/W5_部屋メニュー画面.unity using Guid(ffb240ec0b50be045819f0f2bd0a2e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1075c2a606d949803b677287be301d') in 0.007337 seconds
+  Import took 0.011660 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.072127 seconds.
-  path: Assets/Scenes/W6_部屋作成画面.unity
-  artifactKey: Guid(15724776661ff9c47b35954eff4f8bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/W6_部屋作成画面.unity using Guid(15724776661ff9c47b35954eff4f8bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4691803cf6db2d40d67aa5403f107121') in 0.007055 seconds
-  Import took 0.009428 seconds .
+  Time since last request: 2313.445661 seconds.
+  path: Assets/Script/MenuControll.cs
+  artifactKey: Guid(c72aea4b0ce7331489304d92c6d418f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/MenuControll.cs using Guid(c72aea4b0ce7331489304d92c6d418f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f48d9c6e3208c59a8288316e16e756') in 0.015591 seconds
+  Import took 0.019206 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 13.478376 seconds.
-  path: Assets/Scenes/W7_部屋選択画面.unity
-  artifactKey: Guid(9513d5ea30357c5448b78c4281fcf431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/W7_部屋選択画面.unity using Guid(9513d5ea30357c5448b78c4281fcf431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061024ed77383bd11a63d84b91c05bc2') in 0.007011 seconds
-  Import took 0.009561 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001180 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.877 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2266.
+Total: 2.462900 ms (FindLiveObjects: 0.245200 ms CreateObjectMapping: 0.081200 ms MarkObjects: 2.027000 ms  DeleteObjects: 0.108500 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 13.724389 seconds.
-  path: Assets/Scenes/W8_待機画面.unity
-  artifactKey: Guid(2a9419ef14fce324fad16cb4a68e82c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/W8_待機画面.unity using Guid(2a9419ef14fce324fad16cb4a68e82c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05498ccf014d8710e711fe154746706') in 0.006926 seconds
-  Import took 0.009627 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001167 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.804 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2270.
+Total: 2.024300 ms (FindLiveObjects: 0.214400 ms CreateObjectMapping: 0.089100 ms MarkObjects: 1.622900 ms  DeleteObjects: 0.096300 ms)
 
 ========================================================================
-Received Import Request.
-  Time since last request: 14.792626 seconds.
-  path: Assets/Scenes/W9_大富豪画面.unity
-  artifactKey: Guid(81ca5894e6e9aca48bf184f5b4518810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/W9_大富豪画面.unity using Guid(81ca5894e6e9aca48bf184f5b4518810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5218e7c2b5b5ef1a2d1b62b7c08ca03') in 0.006897 seconds
-  Import took 0.009384 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001277 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.0 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 14.018246 seconds.
-  path: Assets/Scenes/W10_ポーカー画面.unity
-  artifactKey: Guid(2d6bd319a5e46b94a8f20561de2792f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/W10_ポーカー画面.unity using Guid(2d6bd319a5e46b94a8f20561de2792f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20328bd079f57c8e5222494ca84e70c8') in 0.006760 seconds
-  Import took 0.009372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.346243 seconds.
-  path: Assets/Scenes/W11_ランキング画面.unity
-  artifactKey: Guid(d55179e61baa6b544a6978633903c4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/W11_ランキング画面.unity using Guid(d55179e61baa6b544a6978633903c4a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf389668a8b6eae41dab67a93f3b980') in 0.007138 seconds
-  Import took 0.009656 seconds .
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 2.252600 ms (FindLiveObjects: 0.320600 ms CreateObjectMapping: 0.129700 ms MarkObjects: 1.683600 ms  DeleteObjects: 0.117200 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
