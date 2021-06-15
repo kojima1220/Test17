@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.3f1 (76626098c1c4) revision 7758432'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.985; Version 2004; 64bit' Language: 'ja' Physical Memory: 16300 MB
+OS: 'Windows 10 Home; OS build 19041.1052; Version 2004; 64bit' Language: 'ja' Physical Memory: 16300 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/souhe/Desktop/高度情報演習1B/GitHub/Test17/Unity_test17
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53587
+56584
 Successfully changed project path to: C:/Users/souhe/Desktop/高度情報演習1B/GitHub/Test17/Unity_test17
 C:/Users/souhe/Desktop/高度情報演習1B/GitHub/Test17/Unity_test17
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.3f1 (76626098c1c4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Resources/UnitySubsystems
@@ -35,351 +35,167 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.3f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002506 seconds.
+Registered in 0.002332 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 34.27 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.40 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.062 seconds
+- Completed reload, in  1.926 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002921 seconds.
+Registered in 0.002719 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 33.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 35.22 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.828 seconds
+- Completed reload, in  0.827 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1982 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.1 MB.
-System memory in use after: 96.1 MB.
+Unloading 1983 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2431.
-Total: 2.223700 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.084300 ms MarkObjects: 1.747200 ms  DeleteObjects: 0.117000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Photon Unity Networking/UtilityScripts
-  artifactKey: Guid(90d17bf306078764992307b159f06ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/UtilityScripts using Guid(90d17bf306078764992307b159f06ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '764e0473673e63531b00e2834e2a02d9') in 0.009462 seconds
-  Import took 0.012279 seconds .
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2433.
+Total: 2.104900 ms (FindLiveObjects: 0.218300 ms CreateObjectMapping: 0.075400 ms MarkObjects: 1.699400 ms  DeleteObjects: 0.110100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/Photon Unity Networking/Resources
-  artifactKey: Guid(af73df79f380c0147b853dfd4b2ce3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Resources using Guid(af73df79f380c0147b853dfd4b2ce3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a756e98b53627e88c089cf1140969e4') in 0.007370 seconds
-  Import took 0.009766 seconds .
+  path: Assets/Script/CRoomElementScript.cs
+  artifactKey: Guid(9b9202c8f6657244d886b5363ef718e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/CRoomElementScript.cs using Guid(9b9202c8f6657244d886b5363ef718e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68abe4e9e4f090c0f58132f576bbee69') in 0.046150 seconds
+  Import took 0.049701 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.974811 seconds.
-  path: Assets/PhotonChatApi/ChannelCreationOptions.cs
-  artifactKey: Guid(51649d682662ffa43a496dfe64c81120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PhotonChatApi/ChannelCreationOptions.cs using Guid(51649d682662ffa43a496dfe64c81120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1eaafece09efad643f0fc27306c4c9') in 0.039470 seconds
-  Import took 0.042840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.532184 seconds.
-  path: Assets/Photon Unity Networking/PhotonNetwork-Documentation.chm
-  artifactKey: Guid(d93cfd57d52f80543b09a3f2ce724f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/PhotonNetwork-Documentation.chm using Guid(d93cfd57d52f80543b09a3f2ce724f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59609137d7a9d4f012b72cbff54b2b23') in 0.022347 seconds
-  Import took 0.025027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.559857 seconds.
-  path: Assets/Photon Unity Networking/PhotonNetwork-Documentation.pdf
-  artifactKey: Guid(f226ce9e7a33bc24c95f34dd9f583516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/PhotonNetwork-Documentation.pdf using Guid(f226ce9e7a33bc24c95f34dd9f583516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ca4a24db711e623f40593ae22101a7') in 0.013408 seconds
-  Import took 0.016027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.676352 seconds.
-  path: Assets/Photon Unity Networking/readme.txt
-  artifactKey: Guid(d90864ccbf99d4a449c87472b0a181e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/readme.txt using Guid(d90864ccbf99d4a449c87472b0a181e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1dd8b12df4ef2458176f956ccd929a') in 0.012219 seconds
-  Import took 0.015255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000468 seconds.
-  path: Assets/Photon Unity Networking/readme.txt
-  artifactKey: Guid(d90864ccbf99d4a449c87472b0a181e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/readme.txt using Guid(d90864ccbf99d4a449c87472b0a181e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1dd8b12df4ef2458176f956ccd929a') in 0.002869 seconds
-  Import took 0.005384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.126319 seconds.
-  path: Assets/Photon Unity Networking/Demos
-  artifactKey: Guid(7ca51b7456879304d96c939769a0987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Demos using Guid(7ca51b7456879304d96c939769a0987c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8605d6e64d103b0ca981f30d3fe39df') in 0.006991 seconds
-  Import took 0.009811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.875639 seconds.
-  path: Assets/Photon Unity Networking/Editor/PhotonNetwork
-  artifactKey: Guid(dcbd9d9cedc5c08428abc8d2aea83a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Editor/PhotonNetwork using Guid(dcbd9d9cedc5c08428abc8d2aea83a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b3b5dd1d9cd1e18507eb8318e768d3') in 0.013889 seconds
-  Import took 0.016553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.114870 seconds.
-  path: Assets/Photon Unity Networking/Editor/PhotonNetwork/background.png
-  artifactKey: Guid(1faa1cf0448470c4ebbb23b97759ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Editor/PhotonNetwork/background.png using Guid(1faa1cf0448470c4ebbb23b97759ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0f3ad4d61bee6742694007b058cf49') in 0.074987 seconds
-  Import took 0.077553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Photon Unity Networking/Editor/PhotonNetwork/help.png
-  artifactKey: Guid(9f1212502533cb34188dd6ef094188cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Editor/PhotonNetwork/help.png using Guid(9f1212502533cb34188dd6ef094188cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ce3e46a5857cf64efbcf6b0c45c91a') in 0.026695 seconds
-  Import took 0.029098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Photon Unity Networking/Editor/PhotonNetwork/PunSceneSettingsFile.asset
-  artifactKey: Guid(d0aacb83307022d449e90a09d28222ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Editor/PhotonNetwork/PunSceneSettingsFile.asset using Guid(d0aacb83307022d449e90a09d28222ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760385ee2fc8eb617de550e052076698') in 0.011577 seconds
-  Import took 0.013965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 194.430070 seconds.
-  path: Assets/Photon Unity Networking/link.xml
-  artifactKey: Guid(cecd4a32eba31cd4393c185e20824bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/link.xml using Guid(cecd4a32eba31cd4393c185e20824bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679a5e43260f2e0fe2f83e603da4b2b8') in 0.016429 seconds
-  Import took 0.019461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.421920 seconds.
-  path: Assets/Photon Unity Networking/changelog.txt
-  artifactKey: Guid(612a7d8fb44bb994d90d9c0fa1408703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/changelog.txt using Guid(612a7d8fb44bb994d90d9c0fa1408703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3369d4cf3e89e31c4a2692cefdf0b951') in 0.006559 seconds
-  Import took 0.009298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.846982 seconds.
-  path: Assets/Photon Unity Networking/Demos/Demo2DJumpAndRunWithPhysics
-  artifactKey: Guid(20f897a8bf5a6c84ca6f8a2ad5f2b1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Demos/Demo2DJumpAndRunWithPhysics using Guid(20f897a8bf5a6c84ca6f8a2ad5f2b1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d9e8bfba67b017edc3f3da3718b9f6') in 0.006340 seconds
-  Import took 0.009069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.913693 seconds.
-  path: Assets/Photon Unity Networking/Demos/DemoBoxes
-  artifactKey: Guid(dfd11be0031b1ff4ca3eedc3f5e9c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Demos/DemoBoxes using Guid(dfd11be0031b1ff4ca3eedc3f5e9c380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cda088802a20420af0c349c3236410e') in 0.011387 seconds
-  Import took 0.014272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.164615 seconds.
-  path: Assets/Photon Unity Networking/Editor/PhotonNetwork/CullAreaEditor.cs
-  artifactKey: Guid(abadaa451a7bff0489078ed9eec61133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Editor/PhotonNetwork/CullAreaEditor.cs using Guid(abadaa451a7bff0489078ed9eec61133) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c7caa1c8f530485518014732b58517') in 0.012563 seconds
-  Import took 0.015621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.829457 seconds.
-  path: Assets/Photon Unity Networking/Editor/PhotonNetwork/ServerSettingsInspector.cs
-  artifactKey: Guid(21239ba77ac4b534f958e8617ef13ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Editor/PhotonNetwork/ServerSettingsInspector.cs using Guid(21239ba77ac4b534f958e8617ef13ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f2e0572e2648e6a75ed4be72159cf3') in 0.005955 seconds
-  Import took 0.008641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.937165 seconds.
-  path: Assets/Photon Unity Networking/Editor/PhotonNetwork/Views
-  artifactKey: Guid(061ccb9fdf1ff7840a7a7026fe426a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Editor/PhotonNetwork/Views using Guid(061ccb9fdf1ff7840a7a7026fe426a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd5ca604721172e873d9bb8ffe350ec') in 0.005865 seconds
-  Import took 0.009210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1807.834505 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(941c5e0fd4c85804cad4f66371477cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(941c5e0fd4c85804cad4f66371477cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f9dda5008a089b28a6974d1edc17ae') in 0.002751 seconds
-  Import took 0.006288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.696191 seconds.
-  path: Assets/Resources/New Prefab.prefab
-  artifactKey: Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/New Prefab.prefab using Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b17b995ad83126eb1dc7ef83e61dd9a') in 0.013750 seconds
-  Import took 0.016570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001569 seconds.
-  path: Assets/Resources/New Prefab.prefab
-  artifactKey: Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/New Prefab.prefab using Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b17b995ad83126eb1dc7ef83e61dd9a') in 0.003991 seconds
-  Import took 0.006796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.220365 seconds.
-  path: Assets/Resources/New Prefab.prefab
-  artifactKey: Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/New Prefab.prefab using Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad21de050e5b7935e8614bd72e2c423') in 0.003845 seconds
-  Import took 0.006514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.949290 seconds.
-  path: Assets/Resources/New Prefab.prefab
-  artifactKey: Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/New Prefab.prefab using Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29747f0f2dd076634b4a8db6524f5742') in 0.005157 seconds
-  Import took 0.008508 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002640 seconds.
-  path: Assets/Resources/New Prefab.prefab
-  artifactKey: Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/New Prefab.prefab using Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29747f0f2dd076634b4a8db6524f5742') in 0.004822 seconds
-  Import took 0.008055 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.251698 seconds.
-  path: Assets/Resources/New Prefab.prefab
-  artifactKey: Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/New Prefab.prefab using Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52a057dad8c0bfde685ccee6c51c895') in 0.004106 seconds
-  Import took 0.007283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002021 seconds.
-  path: Assets/Resources/New Prefab.prefab
-  artifactKey: Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/New Prefab.prefab using Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd52a057dad8c0bfde685ccee6c51c895') in 0.004206 seconds
-  Import took 0.006795 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.328885 seconds.
+  Time since last request: 9750.543735 seconds.
   path: Assets/Resources/Photonview.prefab
   artifactKey: Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Photonview.prefab using Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9cc44c515bcc15f3dd8f3f8bfa8e61') in 0.007589 seconds
-  Import took 0.010240 seconds .
+Start importing Assets/Resources/Photonview.prefab using Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b12cd2adc2a4e96c9c62642a5e9cce') in 0.030232 seconds
+  Import took 0.035243 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001420 seconds.
-  path: Assets/Resources/Photonview.prefab
-  artifactKey: Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Photonview.prefab using Guid(552bfd8231c54d84baa2d6e5e6e3f25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9cc44c515bcc15f3dd8f3f8bfa8e61') in 0.004457 seconds
-  Import took 0.007038 seconds .
+  Time since last request: 18.295646 seconds.
+  path: Assets/Scenes/W7_部屋選択画面.unity
+  artifactKey: Guid(9513d5ea30357c5448b78c4281fcf431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/W7_部屋選択画面.unity using Guid(9513d5ea30357c5448b78c4281fcf431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbb003de77cec8ef2535656c68103fb') in 0.007936 seconds
+  Import took 0.011633 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 403.558890 seconds.
-  path: Assets/Script/PhotonManager.cs
-  artifactKey: Guid(2830bd4bd7c9cea469975aeacd0cb5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PhotonManager.cs using Guid(2830bd4bd7c9cea469975aeacd0cb5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9a23063d10129c1aa00d7c4bd02fcd') in 0.007387 seconds
-  Import took 0.010875 seconds .
+  Time since last request: 0.000745 seconds.
+  path: Assets/Scenes/W7_部屋選択画面.unity
+  artifactKey: Guid(9513d5ea30357c5448b78c4281fcf431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/W7_部屋選択画面.unity using Guid(9513d5ea30357c5448b78c4281fcf431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbb003de77cec8ef2535656c68103fb') in 0.002992 seconds
+  Import took 0.006387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 202.016206 seconds.
+  path: Assets/Photon Unity Networking/UtilityScripts/UI
+  artifactKey: Guid(67596e6786e5c4039b9caf6f0846836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/UtilityScripts/UI using Guid(67596e6786e5c4039b9caf6f0846836b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e076dcc964b9e55e13d6ab1b6c2a22f') in 0.007600 seconds
+  Import took 0.016243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.416462 seconds.
+  path: Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer
+  artifactKey: Guid(74fe2c92d2bc44fdc8b15184c9b05b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/UtilityScripts/PhotonPlayer using Guid(74fe2c92d2bc44fdc8b15184c9b05b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c55f09a247b9f3b266738b3e349ee96') in 0.012268 seconds
+  Import took 0.015969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.534827 seconds.
+  path: Assets/Photon Unity Networking/Plugins/PhotonNetwork/ServerSettings.cs
+  artifactKey: Guid(9f3758f8f58fdef43803eb9be1df0608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon Unity Networking/Plugins/PhotonNetwork/ServerSettings.cs using Guid(9f3758f8f58fdef43803eb9be1df0608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c59cc06a04cd46a9d41e0e05bb4901') in 0.008464 seconds
+  Import took 0.016136 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004478 seconds.
+Registered in 0.001370 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.734 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1977 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.2 MB.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.5 MB.
+System memory in use after: 92.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2439.
-Total: 2.306300 ms (FindLiveObjects: 0.280000 ms CreateObjectMapping: 0.097800 ms MarkObjects: 1.819700 ms  DeleteObjects: 0.107600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 214.777515 seconds.
-  path: Assets/Script/PhotonManager.cs
-  artifactKey: Guid(2830bd4bd7c9cea469975aeacd0cb5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PhotonManager.cs using Guid(2830bd4bd7c9cea469975aeacd0cb5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d5ab0b48975e8ad1785fc6c4962db5') in 0.005722 seconds
-  Import took 0.009255 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008240 seconds.
-  path: Assets/Script/PhotonManager.cs
-  artifactKey: Guid(2830bd4bd7c9cea469975aeacd0cb5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/PhotonManager.cs using Guid(2830bd4bd7c9cea469975aeacd0cb5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d5ab0b48975e8ad1785fc6c4962db5') in 0.002425 seconds
-  Import took 0.005110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.608231 seconds.
-  path: Assets/Photon Unity Networking/Editor/PhotonNetwork/AccountService.cs
-  artifactKey: Guid(166dfe22956ef0341b28e18d0499e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon Unity Networking/Editor/PhotonNetwork/AccountService.cs using Guid(166dfe22956ef0341b28e18d0499e363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdec196dc2627f773487a39eba44d2a') in 0.006803 seconds
-  Import took 0.009900 seconds .
+Unloading 160 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 1.833400 ms (FindLiveObjects: 0.167400 ms CreateObjectMapping: 0.067600 ms MarkObjects: 1.473300 ms  DeleteObjects: 0.124400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002679 seconds.
+Registered in 0.003380 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
+- Completed reload, in  0.752 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1976 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.2 MB.
+Unloading 2028 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 97.8 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2442.
-Total: 2.029300 ms (FindLiveObjects: 0.246800 ms CreateObjectMapping: 0.081600 ms MarkObjects: 1.589900 ms  DeleteObjects: 0.109700 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2494.
+Total: 1.937400 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.081000 ms MarkObjects: 1.510700 ms  DeleteObjects: 0.088100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 340.085214 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(1d554bfb47189bb449d14d0dd2448f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(1d554bfb47189bb449d14d0dd2448f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f0360e24888afa8727eeea07c9543a') in 0.018627 seconds
+  Import took 0.021650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010262 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(1d554bfb47189bb449d14d0dd2448f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(1d554bfb47189bb449d14d0dd2448f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f0360e24888afa8727eeea07c9543a') in 0.003076 seconds
+  Import took 0.005711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.060775 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset
+  artifactKey: Guid(1d554bfb47189bb449d14d0dd2448f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset using Guid(1d554bfb47189bb449d14d0dd2448f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3112cae317e85b3c4984a5482d25f22f') in 0.003432 seconds
+  Import took 0.006182 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
